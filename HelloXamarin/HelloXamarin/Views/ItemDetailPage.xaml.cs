@@ -1,0 +1,15 @@
+﻿using HelloXamarin.ViewModels;
+using System.ComponentModel;
+using Xamarin.Forms;
+
+namespace HelloXamarin.Views
+{
+    public partial class ItemDetailPage : ContentPage
+    {
+        public ItemDetailPage()
+        {
+            InitializeComponent();
+            BindingContext = new ItemDetailViewModel();
+        }
+    }
+}
